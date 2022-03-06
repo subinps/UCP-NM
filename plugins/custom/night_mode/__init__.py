@@ -7,7 +7,7 @@ from pymongo import MongoClient
 from apscheduler.jobstores.mongodb import MongoDBJobStore
 from apscheduler.schedulers.asyncio import AsyncIOScheduler 
 
-TZ = os.environ.get("TIME_ZONE", "Asia/Kolkata")
+TZ = os.environ.get("TIME_ZONE", "UTC")
 
 monclient = MongoClient(config.DB_URI)
 
