@@ -1,5 +1,3 @@
-# Custom-Plugins
+# NIGHT-MODE
 
-Custom Plugins for Userge
-
-### Only the `plugins` directory will be used !!! 
+Night Mode Plugin for userge.
